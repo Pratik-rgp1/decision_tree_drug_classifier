@@ -1,7 +1,9 @@
-💊 Drug Recommendation using Decision Tree Classifier
+💊 Drug Recommendation using Decision Tree Classifier;
+
 This project builds a Decision Tree model to predict which drug a patient should take based on medical attributes like age, blood pressure, cholesterol, sex, and sodium-to-potassium ratio. It is a simple and interpretable multiclass classification problem using real-world inspired data.
 
-📂 Project Summary
+📂 Project Summary:
+
 Goal: Predict the most suitable drug (Drug A, B, C, X, or Y) for a patient
 
 Algorithm: Decision Tree Classifier (scikit-learn)
@@ -10,7 +12,8 @@ Evaluation: Accuracy score on test set
 
 Visualization: Tree plotted using plot_tree()
 
-🧠 Features
+🧠 Features:
+
 Feature	Type	Description
 Age	Numerical	Patient’s age
 Sex	Categorical	Male / Female
@@ -19,28 +22,34 @@ Cholesterol	Categorical	Normal / High
 Na_to_K	Numerical	Sodium to Potassium ratio in the blood
 Drug	Categorical	Target variable (Drug A, B, C, X, Y)
 
-🔧 Steps Performed
-🧹 Data Preprocessing
+🔧 Steps Performed :
+
+🧹 Data Preprocessing :
+
 Label encoded categorical variables (Sex, BP, Cholesterol)
 
 Mapped target classes to numerical for correlation analysis
 
-Checked for missing values
+Checked for missing values :
 
-📊 Exploratory Data Analysis (EDA)
+📊 Exploratory Data Analysis (EDA) :
+
 Generated correlation heatmap between features and the target
 
-🧪 Model Building
+🧪 Model Building :
+
 Used DecisionTreeClassifier with entropy criterion
 
 Controlled model complexity using max_depth
 
-✅ Evaluation
+✅ Evaluation :
+
 Evaluated model using accuracy score (≈98% accuracy on test set)
 
 Visualized decision rules using plot_tree()
 
-🛠️ Tools Used
+🛠️ Tools Used :
+
 Python 3.x
 
 pandas, numpy
